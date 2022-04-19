@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Local Storage - Daily Item Cost</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/normalize.css">
+
+<body>
+   <h1>Daily Cost Calculator</h1>
+
+   <section class="form">
+      <form action="">
+         <div class="form">
+            <label for="item-name-input">Item Name Input</label>
+            <input id="item-name-input" type="text">
+         </div>
+         <div class="form">
+            <label for="purchase-price-input">Purchase Price</label>
+            <input id="purchase-price-input" type="number">
+         </div>
+         <div class="form">
+            <label for="purchase-date-input">Purchase Date</label>
+            <input id="purchase-date-input" type="date">
+         </div>
+      </form>
+      <button class="sumbit-daily">Submit</button>
+   </section>
+
+   <section class="cost-table-section">
+      <div class="cost-table-heading">
+         <h2>How much has your equipment cost you per day?</h2>
+      </div>
+      <table id="cost-table">
+         <thead>
+            <tr>
+               <th>Item Name</th>
+               <th>Purchase Price</th>
+               <th>Purchase Date</th>
+               <th>Current Price Per Day</th>
+            </tr>
+         </thead>
+      </table>
+   </section>
+
+
+   <script src="JS/app.js"></script>
+</body>
+
+</html>
